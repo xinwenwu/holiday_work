@@ -1,7 +1,6 @@
 {
   "name": "wuwenxin",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.26.1",
+    "gulp": "^3.9.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
     "gulp": "^3.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinwenwu/holiday_work.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xinwenwu/holiday_work/issues"
+  },
+  "homepage": "https://github.com/xinwenwu/holiday_work#readme",
+  "description": ""
 }

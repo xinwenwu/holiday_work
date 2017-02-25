@@ -1,0 +1,47 @@
+.banner{width:1000px;margin:0 auto;height:440px;}
+.black_nav_content{width:1000px;margin:0 auto;padding-top:20px;line-height:40px;overflow:hidden;height:72px;}
+.black_nav{width:1000px;line-height:30px;margin:0 auto;background:#000;padding:6px 0;overflow:hidden;height:62px;}
+.black_nav ul{padding:0 20px;font-size:16px;font-weight:bolder;}
+.black_nav ul li{display:inline-block;padding-right:20px;float:left;}
+.black_nav ul li a{color:#d6d6d6;background:url(../images/zt_jts.jpg) no-repeat left -5px;padding-left:15px;display:inline-block;vertical-align:top;}
+.black_nav ul li a:hover{color:#f0a621;background: url(../images/zt_jts.jpg) no-repeat 0 -46px;}
+.black_nav .on a{color:#f0a621;background:url(../images/zt_jts.jpg) no-repeat 0 -46px;}
+
+.black_nav_fixed{position: fixed;top:0;z-index:10000;}
+
+.shoplist{width:1000px;margin:0 auto;}
+.clearfix{zoom:1;}
+
+.spei_tit{height:33px;line-height:33px;margin-top:20px;padding:0 10px;color:#333;background:#e0e0e0;}
+.spei_tit a{float:right;color:#666;font-size:12px;}
+.spei_tit a:hover{color:#f26521;}
+.spei_tit span{width:3px;height:14px;display:inline-block;background:#e47313;margin:9px 5px 0 0;float:left;overflow:hidden;vertical-align:middle;}
+.spei_tit strong{font-size:13px;line-height:33px;display:inline-block;float:left;color:#020202;overflow:hidden;font-weight:normal;}
+
+.zt_bigpic{padding-bottom:5px;}
+.ztul{height:100%;overflow:hidden;}
+.big_pic{display:inline-block;width:315px;height:507px;overflow:hidden;position:relative;float:left;border:2px solid #fff;margin-right:14px;margin-top:20px;}
+.right_big_pic{margin-right:0;}
+.cur{border:2px solid #e7e7e7;}
+.zt_tus{width:315px;height:420px;zoom:1;overflow:hidden;position:relative;}
+.big_pic .tit{padding:5px 10px 0 10px;width:295px;height:18px;margin:0 auto;line-height:18px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;}
+.big_pic .tit a{color:#666;}
+.big_pic .tit a:hover{color:#f26521}
+.big_pic .price{padding:3px 10px 10px 10px;font-size: 18px;}
+.big_pic .price span{line-height:20px;height:20px;font-weight:bolder;background:url(../images/xsearchico.png) no-repeat 2px -358px;padding-left:13px;color:#d80c18;}
+
+.zytus_size {width:315px;height:69px;opacity: 0.8;filter: alpha(opacity=80);background: none repeat scroll 0 0 #FFFFFF;position:relative;top: 0;border-bottom:1px solid #e7e7e7;}
+.zytus_size_tit{color:#666;height:14px;padding:10px 0 0 10px;}
+.zytus_size_lie{zoom:1;padding:0 0 10px 10px;height:34px;}
+.ssl_item{cursor:pointer;border:1px solid #7a7a7a;background:#fff;color:#333;float:left;height:22px;line-height:22px;margin:10px 9px 0 0;text-align:center;padding:0 10px;display:inline-block;}
+
+.table{width:1000px;margin:0 auto;}
+
+
+
+
+
+
+
+
+

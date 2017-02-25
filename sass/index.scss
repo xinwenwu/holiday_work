@@ -1,0 +1,57 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{color:#666;font:12px "SimSun","宋体","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;display:inline-block;}
+input{border:none;border:1px solid #bbbbbb;}
+/*重置样式*/
+
+.homebox{margin:auto;width:1200px;padding:20px 0 30px;min-height:1000px;height:auto!important;height:1000px;}
+.homebox:after{content:".";clear:both;height:0;display:block;overflow:hidden;visibility:hidden}
+.banner{width:1200px;height:590px;margin:auto;padding:0 0 40px;position:relative;overflow:hidden;}
+.homebanner{width:1200px;position:relative;left:0;overflow: hidden;height:610px;}
+.banner>img:nth-of-type(1){position:absolute;left:0;cursor:pointer;}
+.banner>img:nth-of-type(2){position:absolute;left:1200px;cursor:pointer;}
+
+
+.num{width:1200px;height:15px;margin:0 auto;overflow:hidden;text-align: center;position:absolute;left:0;bottom:40px;z-index: 999}
+.numbox{margin:auto;height:15px;position:absolute;top:0;left:50%;margin:0 0 0 -35px;z-index: 10000;}
+.numbox li{float:left;display:block;width:15px;height:15px;color:#ccc;background:#ccc;text-align:center;border-radius:50%;cursor:pointer;margin:0 5px;}
+.numbox .on{background:#707070;color:#707070;}
+
+.home_shortcut{width:1170px;margin:0 auto;height:86px;padding:0 0 20px 30px;}
+.home_shortcut a{float:left;display:block;height:86px;margin:0 60px 0 0;background:url(../images/shortcut.jpg) no-repeat;transition: all 0.2s}
+.home_shortcut .share{background-position:0 0;width:250px;}
+.home_shortcut .newn{background-position:-250px 0;width:250px;}
+.home_shortcut .newgift{background-position:-745px 0;width:250px;}
+.home_shortcut .yaoq{background-position:-985px 0;width:215px;margin:0}
+.home_shortcut a:hover{transform: translatex(-20px);}
+
+.home_goods h3,.home_beats h3,.home_find h3,.find_m{text-align:center;padding:0 0 20px;}
+.home_goods ul{width:1200px;height:600px;margin:0 0 40px;overflow:hidden;}
+.home_goods ul li{float:left;width:400px;margin:0;}
+.home_goods ul li a{width:400px;height:300px;display:block;}
+
+.home_beats ul{width:1200px;height:1020px;}
+.home_beats ul li{float:left;width:600px;height:300px;margin-bottom:40px;position:relative;overflow: hidden;cursor:pointer;}
+.home_beats ul li a>img{display: inline-block;width:600px;height:300px;}
+.home_beats ul li p{position:absolute;top:50%;left:0;width:100%;height:80px;margin:-40px 0 0;text-align:center;}
+
+.search_more{padding:0 0 20px;text-align:center;}
+
+.home_auto{width:1200px;height:400px;overflow:hidden;padding:20px 0 50px;opacity:1;}
+
+.home_find ul{width:1217px;overflow: hidden;margin:0 auto 20px;}
+.home_find ul li{float:left;width:285px;margin:0 17px 20px 0;border: 1px solid #fff;}
+.home_find ul li:hover{border: 1px solid #ccc;}
+
+.rightnav{position: fixed;left:50%;margin-left:595px;top:270px;z-index: 10000;}
+
+area {outline:none;border:0 none;display:inline;cursor: pointer;}
+
+
+
+
+

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>走秀网</title>
-    <link rel="stylesheet" href="css/index.css"/>
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="css/details.css"/>
     <link rel="stylesheet" href="css/commen.css"/>
     <script src="js/lib/JQuery/jquery-1.12.4.js"></script>
-   <!-- <script src="js/lib/JQuery/swiper.min.js"></script>-->
-    <script src="js/app/index.js"></script>
+    <script src="js/app/details.js"></script>
+    <script src="js/app/commen.js"></script>
 </head>
 <body>
 <div class="header">
@@ -53,20 +53,6 @@
             </ul>
         </div>
     </div>
-    <div class="fixed_top">
-        <div class="zd_con">
-            <ul class="navlist">
-                <li><a href="" class="curr">首页</a></li>
-                <li><a href="">新品</a></li>
-                <li><a href="">男士</a></li>
-                <li><a href="">女士</a></li>
-                <li><a href="">品牌</a></li>
-                <li><a href="" class="hot">发现</a></li>
-                <li><a href="">专题</a></li>
-                <li><a href="">手机走秀</a></li>
-            </ul>
-        </div>
-    </div>
 </div>
 <div class="navbox">
     <div class="nav">
@@ -86,18 +72,18 @@
                             <dl>
                                 <dt>
                                 <h4>
-                                     <a href="">女士包袋</a>
+                                    <a href="">女士包袋</a>
                                 </h4>
                                 </dt>
                                 <dd>
                                     <a href="">手提包</a>
-                                                  <a href=""><b color="red">单肩包</b></a>
-                                                  <a href="">斜挎包</a>
-                                                  <a href=""><b color="red">提挎两用包</b></a>
+                                    <a href=""><b color="red">单肩包</b></a>
+                                    <a href="">斜挎包</a>
+                                    <a href=""><b color="red">提挎两用包</b></a>
                                     <br>		             <a href="">双肩包</a>
-                                                  <a href="">钱包</a>
-                                                  <a href="">手拿包/晚宴包</a>
-                                                  <a href="">化妆包</a>
+                                    <a href="">钱包</a>
+                                    <a href="">手拿包/晚宴包</a>
+                                    <a href="">化妆包</a>
                                 </dd>
                             </dl>
                             <dl>
@@ -108,13 +94,13 @@
                                 </dt>
                                 <dd>
                                     <a href="">手提包</a>
-                                                  <a href="">公文包</a>
-                                                  <a href=""><b color="red">斜挎包</b></a>
-                                                  <a href="">单肩包</a>
-                                                  <a href="">提挎两用包</a>
+                                    <a href="">公文包</a>
+                                    <a href=""><b color="red">斜挎包</b></a>
+                                    <a href="">单肩包</a>
+                                    <a href="">提挎两用包</a>
                                     <br>		             <a href="">双肩包</a>
-                                                  <a href=""><b color="red">钱包</b></a>
-                                                  <a href="">手包/夹包</a>
+                                    <a href=""><b color="red">钱包</b></a>
+                                    <a href="">手包/夹包</a>
                                 </dd>
                             </dl>
                             <dl>
@@ -125,16 +111,16 @@
                                 </dt>
                                 <dd>
                                     <a href="">电脑包/袋</a>
-                                                  <a href="">iPad 套</a>
-                                                  <a href="">摄影包/相机袋</a>
-                                                  <a href="">手机袋/手机壳</a>
+                                    <a href="">iPad 套</a>
+                                    <a href="">摄影包/相机袋</a>
+                                    <a href="">手机袋/手机壳</a>
                                     <a href="">钥匙包</a>
-                                                  <a href="">名片夹</a>
+                                    <a href="">名片夹</a>
                                     <br>		             <a href="">证件套</a>
-                                                  <a href="">卡包</a>
-                                                  <a href="">腰包</a>
-                                                  <a href="">环保袋</a>
-                                                  <a href="">其他</a>
+                                    <a href="">卡包</a>
+                                    <a href="">腰包</a>
+                                    <a href="">环保袋</a>
+                                    <a href="">其他</a>
                                 </dd>
                             </dl>
                             <dl class="last">
@@ -145,8 +131,8 @@
                                 </dt>
                                 <dd>
                                     <a href=""><b color="red">旅行箱</b></a>
-                                                  <a href="">旅行包</a>
-                                                  <a href="">登山包</a>
+                                    <a href="">旅行包</a>
+                                    <a href="">登山包</a>
                                 </dd>
                             </dl>
                         </div>
@@ -189,6 +175,7 @@
                             </dl>
                         </div>
                     </div>
+
                 </div>
             </li>
             <li>
@@ -208,109 +195,54 @@
         </ul>
     </div>
 </div>
-<div class="homebox" id="homebox">
-    <div class="banner"></div>
-    <div class="home_shortcut">
-        <a href="" class="share"></a>
-        <a href="" class="newn"></a>
-        <a href="" class="newgift"></a>
-        <a href="" class="yaoq"></a>
-    </div>
-    <div class="home_goods">
-        <h3><img src="images/goods_t.jpg" alt=""/></h3>
-    </div>
-    <div class="home_beats">
-        <h3><img src="images/topic_t.jpg" alt=""/></h3>
-    </div>
-    <h3 class="search_more"><img src="images/topic_m.jpg" alt=""/></h3>
-    <div class="home_auto">
-        <a href=""><img src="images/auto.jpg" alt=""/></a>
-    </div>
-    <div class="home_find">
-        <h3><a href=""><img src="images/found_t.jpg" alt=""/></a></h3>
-    </div>
-    <h3 class="find_m"><a href=""><img src="images/fonud_m.jpg" alt=""/></a></h3>
-</div>
-<div class="footer">
-    <div class="service_info">
-        <div class="serivce_nr">
-            <div class="cs">
-                <a href="" class="kf"></a>
-                <p class="p_num"></p>
-                <a href="" class="mail_link"></a>
+<div class="dt_main">
+    <div class="dh">您的位置</div>
+    <div class="pro_con">
+        <div class="con_main">
+            <div class="p_map">
+                <div class="big_map">
+                    <div id="imgPicDiv">
+                        <img src="images/simg1.jpg" alt="" class="imgPic"/>
+                        <img src="images/simg2.jpg" alt=""/>
+                        <img src="images/simg3.jpg" alt=""/>
+                        <img src="images/simg4.jpg" alt=""/>
+                        <img src="images/simg5.jpg" alt=""/>
+                        <div id="showing"></div>
+                        <div class="bigPicDiv">
+                            <img src="images/g1_900_1200.jpg" alt="" class="active"/>
+                            <img src="images/g2_900_1200.jpg" alt=""/>
+                            <img src="images/g3_900_1200.jpg" alt=""/>
+                            <img src="images/g4_900_1200.jpg" alt=""/>
+                            <img src="images/g5_900_1200.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm_map">
+                    <dl id="smallPic">
+                        <dd class="dc"><a href="javascript:;"><img src="images/simg1.jpg"></a></dd>
+                        <dd><a href="javascript:;"><img src="images/simg2.jpg"></a></dd>
+                        <dd><a href="javascript:;"><img src="images/simg3.jpg"></a></dd>
+                        <dd><a href="javascript:;"><img src="images/simg4.jpg"></a></dd>
+                        <dd><a href="javascript:;"><img src="images/simg5.jpg"></a></dd>
+                    </dl>
+                </div>
             </div>
-            <dl>
-                <dt>新手入门</dt>
-                <dd><a href="">购物流程</a></dd>
-                <dd><a href="">会员等级与升级</a></dd>
-                <dd><a href="">我的走秀</a></dd>
-                <dd><a href="">常见问题</a></dd>
-                <dd><a href="">手机走秀</a></dd>
-            </dl>
-            <dl>
-                <dt>配送方式</dt>
-                <dd><a href="">海外配送说明</a></dd>
-                <dd><a href="">配送运费</a></dd>
-                <dd><a href="">配送说明</a></dd>
-            </dl>
-            <dl>
-                <dt>支付方式</dt>
-                <dd><a href="">在线支付</a></dd>
-                <dd><a href="">货到付款</a></dd>
-                <dd><a href="">银行付款</a></dd>
-            </dl>
-            <dl>
-                <dt>售后服务</dt>
-                <dd><a href="">退换货自动申请</a></dd>
-                <dd><a href="">退换货政策</a></dd>
-                <dd><a href="">退换货流程</a></dd>
-                <dd><a href="">退款说明</a></dd>
-                <dd><a href="">CEO邮箱</a></dd>
-            </dl>
-            <dl class="wchat">
-                <dt>走进微信客服</dt>
-                <dd></dd>
-            </dl>
         </div>
     </div>
 </div>
-<div class="footlink">
-    <ul>
-        <li><a href="">关于走秀</a> | </li>
-        <li><a href="">About us</a> | </li>
-        <li><a href="">媒体报道</a> | </li>
-        <li><a href="">品牌招商</a> | </li>
-        <li><a href="">加入走秀</a> | </li>
-        <li><a href="">网站地图</a> | </li>
-        <li><a href="">联系我们</a> | </li>
-        <li><a href="">品牌大全</a> | </li>
-        <li><a href="">邮件订阅</a> | </li>
-        <li><a href="">品牌专题</a> | </li>
-        <li><a href="">WAP站点</a></li>
-    </ul>
-</div>
-<div class="footbtn">
-    <a href="" class="fa1"></a>
-    <a href="" class="fa2"></a>
-    <a href="" class="fa3"></a>
-</div>
-<p class="copyright">Copyright © 2008-2017 <a href="">Xiu.com</a>深圳走秀网络科技有限公司 版权所有 . <a href="">粤ICP备07502993号</a></p>
-<div class="desdiv">
-    <a href=""><img src="images/c_01.jpg" alt=""/></a>
-    <a href=""><img src="images/c_11.jpg" alt=""/></a>
-    <a href=""><img src="images/c_04.jpg" alt=""/></a>
-    <a href=""><img src="images/c_08.jpg" alt=""/></a>
-    <a href=""><img src="images/c_09.jpg" alt=""/></a>
-</div>
-<div class="rightnav">
-    <img src="images/right.png" alt="" usemap="#mapright"/>
-    <map name="mapright">
-        <area shape="rect" coords="11,211,109,249" href="#top">
-        <area shape="rect" coords="11,176,109,210" href="http://www.xiu.com/cx/176713.shtml" target="_blank">
-        <area shape="rect" coords="12,142,111,175" href="http://www.xiu.com/cx/176712.shtml" target="_blank">
-        <area shape="rect" coords="12,108,110,141" href="http://www.xiu.com/cx/185756.shtml" target="_blank">
-        <area shape="rect" coords="12,73,111,107" href="http://www.xiu.com/cx/185734.shtml#1F" target="_blank">
-    </map>
+
+
+
+
+
+<div class="backtop">
+    <span class="close">关闭</span>
+    <div class="r_menu">
+        <a href="" class="service"></a>
+        <a href="" class="buy"><span class="num">0</span></a>
+        <a href="" class="mail"></a>
+        <a href="javascript:void(0)" class="back_top" id="back_top"></a>
+    </div>
 </div>
 </body>
 </html>

@@ -3,8 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="js/lib/JQuery/jquery-1.12.4.js"></script>
 </head>
 <body>
-
+<div class="login_header"><h1><a href=""><img src="images/logo_mini.png" alt=""/></a></h1></div>
+<div class="login_bgcolor">
+    <div class="login_theme"></div>
+    <div class="login_box">
+        <ul class="login_tab">
+            <li><a href="" class="tab_1">短信登录</a></li>
+            <li><a href="" class="tab_2">密码登录</a></li>
+        </ul>
+        <div class="login_form">
+            <ul>
+                <li class="username">
+                    <input id="txt" class="txt" type="text"/>
+                    <lable for="txt" class="input_tip">手机号码</lable>
+                </li>
+                <li class="msgcode">
+                    <input id="msgcode" class="ltxt" type="text"/>
+                    <lable for="ltxt" class="input_tip">短信验证码</lable>
+                    <a href="" class="phone_login_btn">获取验证码</a>
+                </li>
+                <li class="check_opt">
+                    <lable class="loginb" for="alogin">
+                        <span></span>
+                        <input id="alogin" type="checkbox" class="lcheck" checked="ture"/>两周内自动登录
+                    </lable>
+                    <div class="getpassreg"><a href="" class="getpass">找回密码</a></div>
+                </li>
+                <li class="login_btn"><button class="l_btn">登&nbsp;&nbsp;&nbsp;&nbsp;录</button></li>
+            </ul>
+        </div>
+        <div class="login_extinfo">
+            <dt class="optar">
+                <span class="tit">合作网站账号登录</span>
+            </dt>
+            <dd>
+                <ul class="login_g">
+                    <li><a href="" class="apiqq"></a></li>
+                    <li><a href="" class="apiweixin"></a></li>
+                    <li><a href="" class="apiweibo"></a></li>
+                    <li><a href="" class="apizhifu"></a></li>
+                    <li class="sp"><a href="" class="apiping"></a></li>
+                </ul>
+            </dd>
+        </div>
+        <a href="" class="login_codego"></a>
+        <a href="" class="login_ewmg"></a>
+    </div>
+</div>
+<div class="login_footer">
+    <div class="login_xiu">
+        <a href="">关于走秀</a><b>|</b>
+        <a href="">媒体报道</a><b>|</b>
+        <a href="">品牌招商</a><b>|</b>
+        <a href="">加入走秀</a><b>|</b>
+        <a href="">友情链接</a><b>|</b>
+        <a href="">联系我们</a><b>|</b>
+        <a href="">帮助中心</a><b>|</b>
+        <a href="">网站地图</a>
+    </div>
+    <div class="login_copyright">Copyright © 2008-2017 <a href="">Xiu.com</a> 版权所有 . 粤ICP备07502993号</div>
+</div>
 </body>
 </html>

@@ -1,0 +1,59 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{color:#666;font:12px "SimSun","宋体","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle;display:inline-block;}
+input{border:none;border:1px solid #bbbbbb;}
+/*重置样式*/
+
+.login_header{width:1200px;height:30px;margin:auto;padding:15px 0;}
+.login_bgcolor{border-top: 1px solid #e5e5e5;width:100%;height:700px;position:relative;text-shadow:#fff 0 1px 0;}
+.login_theme{width:100%;height:700px;background:url(../images/login_bg.jpg) center no-repeat #f7f2ec}
+.login_box{background:#fff;width:420px;height:560px;position:absolute;top:70px;right:60px;z-index:10;border:1px solid #d8d8d8;box-shadow:0 0 20px #c8c8c8;}
+.login_tab{height:52px;}
+.login_tab li{height:52px;line-height:52px;width:210px;float:left;background: #f7f7f9;}
+.tab_1{display:block;width:210px;border-bottom:2px solid #f7f7f9;font-size:16px;text-align: center;color:#464646;font-weight: 700;border-color: #464646;}
+.tab_2{display:block;width:210px;color: #afafaf;font-size:16px;font-size:16px;text-align: center;font-weight: 700;}
+.login_form{width:302px;height:199px;margin:30px auto 0;}
+.login_form:after{width:302px;content:".";clear:both;height:0;display: block;overflow: hidden;  visibility: hidden;}
+.login_form ul:after{width:302px;content:".";clear:both;height:0;display: block;overflow: hidden;  visibility: hidden;}
+.username{position:relative;}
+.txt{width:280px;height:24px;line-height:24px;border:1px solid #d8d8d8;color:#464646;padding:5px 10px;position:relative;}
+.input_tip{color:#afafaf;padding:0 3px;height:20px;line-height:20px;position:absolute;left:8px;top:9px;cursor: text}
+.msgcode{margin-top:24px;position:relative;height:36px;}
+.ltxt{float:left;width:165px;padding:5px 10px;height:24px;line-height:24px;}
+.phone_login_btn{display: block;color:#464646;float:right;width:100px;height:34px;line-height:34px;background:#f7f7f9;border:1px solid #ccc;text-align:center;}
+.check_opt{margin-top:24px;position:relative;}
+.loginb{margin-right:20px;position:relative;float:left;width:116px;display: block}
+.loginb span{display:block;position:absolute;left:0;top:0;width:16px;height:16px;background:url(../images/login_sprite.png) no-repeat -180px 0}
+.lcheck{display:inline;vertical-align:middle;margin-right:10px;}
+.getpassreg{float:right;}
+.getpass{color:#464646;}
+.login_btn{float:left;margin-top:24px;position:relative;}
+.l_btn{border:0;width:300px;height:40px;line-height:40px;background:url(../images/login_sprite.png) 0 -40px no-repeat;font-size:14px;color:#fff;cursor:pointer;}
+.login_extinfo{width:300px;padding:30px 0 0;margin:0 auto;}
+.optar{display:block;height:20px;line-height:20px;margin:-15px 0 25px;position:relative;border-bottom:1px solid #e7e7e7;}
+.tit{position:absolute;left:50%;top:10px;margin:0 0 0 -60px;width:120px;height:20px;line-height:20px;text-align:center;background: #fff;}
+.login_g{width:270px;height:30px;margin:auto;}
+.login_g li{width:30px;height:30px;float:left;margin:0 30px 0 0;}
+.login_g li a{width:30px;height:30px;display:block;background:url(../images/login_sprite.png) no-repeat}
+.login_g .sp{margin:0}
+.login_g .apiqq{background-position:0 0}
+.login_g .apiweixin{background-position:-30px 0}
+.login_g .apiweibo{background-position:-60px 0}
+.login_g .apizhifu{background-position:-90px 0}
+.login_g .apiping{background-position:-120px 0}
+.login_codego{display:block;width:60px;height:60px;position:absolute;right:0;bottom:0;background: url(../images/login_sprite.png) 0 -400px no-repeat;}
+.login_ewmg{display:block;width:85px;height:25px;position:absolute;right:55px;bottom:12px;background: url(../images/login_sprite.png) 0 -360px no-repeat;z-index:100}
+.login_footer{height:100px;text-align:center;color:#464646;margin:auto;margin-top:10px;width:1200px;}
+.login_footer a{color:#464646;}
+.login_footer b{padding:0 5px;color:#999;font-weight:400;}
+.login_xiu{padding-top:20px;}
+.login_copyright{text-align: center;padding-top:10px;color:#999;}
+.login_copyright a:hover{text-decoration: underline;}
+.login_copyright a{color:#999;}
+
+
+
